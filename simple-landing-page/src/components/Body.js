@@ -39,7 +39,7 @@ const Body = () => {
         </div>
       </div>
    <div style={styles.card}>
-        <img src={"/Pernerovskyi_Andrea.png"} alt="Andrea Pernerovskyi" style={styles.photo} />
+        <img src={"/Pernerovskyi_Andrea.jpg"} alt="Andrea Pernerovskyi" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Andrea Pernerovskyi</h2>
           <p style={styles.position}>Front-end developer</p>
