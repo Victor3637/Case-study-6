@@ -66,7 +66,7 @@ const styles = {
     display: "flex",
     flexWrap: "wrap",
     height: "700px",
-    margin: "370px auto 0",
+    margin: "380px auto 0",
     width: "70%",
     justifyContent: "space-between"
   },
