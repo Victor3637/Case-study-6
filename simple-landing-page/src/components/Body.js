@@ -38,6 +38,13 @@ const Body = () => {
           <p style={styles.position}>Scrum Master</p>
         </div>
       </div>
+   <div style={styles.card}>
+        <img src={"/Pernerovskyi_Andrea.jpg"} alt="Andrea Pernerovskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Andrea Pernerovskyi</h2>
+          <p style={styles.position}>Front-end developer</p>
+        </div>
+      </div>
     </main>
   );
 };
