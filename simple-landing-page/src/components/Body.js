@@ -25,7 +25,7 @@ const Body = () => {
         </div>
       </div>
   <div style={styles.card}>
-        <img src={"/Victoriia.jpg"} alt="Viktoriia Mykhailovych" style={styles.photo} />
+        <img src={"/Viktoriia.jpg"} alt="Viktoriia Mykhailovych" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Viktoriia Mykhailovych</h2>
           <p style={styles.position}>UI/UX Designer</p>
