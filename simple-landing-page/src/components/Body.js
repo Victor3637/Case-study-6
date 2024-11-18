@@ -67,7 +67,7 @@ const styles = {
     flexWrap: "wrap",
     height: "700px",
     marginTop: "370px auto 0",
-    width: "70%"
+    width: "70%",
     justifyContent: "space-between"
   },
   card: {
