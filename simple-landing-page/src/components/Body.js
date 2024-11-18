@@ -24,6 +24,27 @@ const Body = () => {
           <p style={styles.position}>Frontend developer</p>
         </div>
       </div>
+  <div style={styles.card}>
+        <img src={"/Viktoriia.jpg"} alt="Viktoriia Mykhailovych" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Viktoriia Mykhailovych</h2>
+          <p style={styles.position}>UI/UX Designer</p>
+        </div>
+      </div>
+  <div style={styles.card}>
+        <img src={"/Daryna.jpg"} alt="Daryna Lunych" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Daryna Lunych</h2>
+          <p style={styles.position}>Scrum Master</p>
+        </div>
+      </div>
+   <div style={styles.card}>
+        <img src={"/Pernerovskyi_Andrea.jpg"} alt="Andrea Pernerovskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Andrea Pernerovskyi</h2>
+          <p style={styles.position}>Front-end developer</p>
+        </div>
+      </div>
     </main>
   );
 };
@@ -32,6 +53,13 @@ const styles = {
   body: {
     display: "flex",
     flexWrap: "wrap",
+    justifyContent: "center", 
+    backgroundImage: "url('/techopyzyky.jpg')", 
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat", 
+    minHeight: "100vh",
+    padding: "2em", 
   },
   card: {
     width: "150px",
