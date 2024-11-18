@@ -46,6 +46,13 @@ const styles = {
   body: {
     display: "flex",
     flexWrap: "wrap",
+    justifyContent: "center", 
+    backgroundImage: "url('/techopyzyky.jpg')", 
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat", 
+    minHeight: "100vh",
+    padding: "2em", 
   },
   card: {
     width: "150px",
