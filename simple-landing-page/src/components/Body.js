@@ -30,6 +30,7 @@ const Body = () => {
           <h2 style={styles.name}>Viktoriia Mykhailovych</h2>
           <p style={styles.position}>UI/UX Designer</p>
         </div>
+      </div>
     </main>
   );
 };
